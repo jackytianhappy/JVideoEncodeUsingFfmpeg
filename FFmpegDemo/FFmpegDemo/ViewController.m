@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#include "libavformat/avformat.h"
+
 
 @interface ViewController ()
 
