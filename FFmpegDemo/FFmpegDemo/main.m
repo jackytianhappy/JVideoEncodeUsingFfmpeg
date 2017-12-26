@@ -1,9 +1,9 @@
 //
 //  main.m
-//  JVideoEncodeUsingFFmpeg
+//  FFmpegDemo
 //
-//  Created by Jacky on 2017/5/8.
-//  Copyright © 2017年 jacky. All rights reserved.
+//  Created by Tian,Nan on 2017/12/26.
+//  Copyright © 2017年 Tian,Nan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
