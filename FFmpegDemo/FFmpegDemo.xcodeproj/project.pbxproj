@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCA7E55D1FF24E120059CEF9 /* BascInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA7E55C1FF24E120059CEF9 /* BascInfoVC.m */; };
 		CCAA2EA51FF241B200E5D96D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAA2EA41FF241B200E5D96D /* AppDelegate.m */; };
 		CCAA2EA81FF241B200E5D96D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAA2EA71FF241B200E5D96D /* ViewController.m */; };
 		CCAA2EAB1FF241B200E5D96D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAA2EA91FF241B200E5D96D /* Main.storyboard */; };
@@ -137,6 +138,8 @@
 		CCA7E5561FF248E90059CEF9 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 		CCA7E5581FF248E90059CEF9 /* swscale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swscale.h; sourceTree = "<group>"; };
 		CCA7E5591FF248E90059CEF9 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		CCA7E55B1FF24E120059CEF9 /* BascInfoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BascInfoVC.h; sourceTree = "<group>"; };
+		CCA7E55C1FF24E120059CEF9 /* BascInfoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BascInfoVC.m; sourceTree = "<group>"; };
 		CCAA2EA01FF241B200E5D96D /* FFmpegDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFmpegDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAA2EA31FF241B200E5D96D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCAA2EA41FF241B200E5D96D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -356,6 +359,15 @@
 			path = libswscale;
 			sourceTree = "<group>";
 		};
+		CCA7E55A1FF24DAB0059CEF9 /* ListVCs */ = {
+			isa = PBXGroup;
+			children = (
+				CCA7E55B1FF24E120059CEF9 /* BascInfoVC.h */,
+				CCA7E55C1FF24E120059CEF9 /* BascInfoVC.m */,
+			);
+			path = ListVCs;
+			sourceTree = "<group>";
+		};
 		CCAA2E971FF241B200E5D96D = {
 			isa = PBXGroup;
 			children = (
@@ -376,6 +388,7 @@
 		CCAA2EA21FF241B200E5D96D /* FFmpegDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CCA7E55A1FF24DAB0059CEF9 /* ListVCs */,
 				CCAA2EB91FF2423F00E5D96D /* FFMPEG */,
 				CCAA2EA31FF241B200E5D96D /* AppDelegate.h */,
 				CCAA2EA41FF241B200E5D96D /* AppDelegate.m */,
@@ -505,6 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCAA2EA81FF241B200E5D96D /* ViewController.m in Sources */,
+				CCA7E55D1FF24E120059CEF9 /* BascInfoVC.m in Sources */,
 				CCAA2EB31FF241B200E5D96D /* main.m in Sources */,
 				CCAA2EA51FF241B200E5D96D /* AppDelegate.m in Sources */,
 			);
