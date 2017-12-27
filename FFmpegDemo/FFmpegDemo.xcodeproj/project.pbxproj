@@ -21,11 +21,12 @@
 		CCAA2F3C1FF2431500E5D96D /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F351FF2431500E5D96D /* libavutil.a */; };
 		CCAA2F3D1FF2431500E5D96D /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F361FF2431500E5D96D /* libswresample.a */; };
 		CCAA2F3E1FF2431500E5D96D /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F371FF2431500E5D96D /* libswscale.a */; };
-		CCAA2F411FF2472400E5D96D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F401FF2471600E5D96D /* libz.tbd */; };
-		CCAA2F431FF2473700E5D96D /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F421FF2473700E5D96D /* libbz2.tbd */; };
-		CCAA2F451FF2474300E5D96D /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F441FF2474300E5D96D /* libiconv.tbd */; };
-		CCAA2F481FF2476A00E5D96D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F471FF2475800E5D96D /* CoreMedia.framework */; };
-		CCAA2F491FF2477500E5D96D /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F461FF2474D00E5D96D /* VideoToolbox.framework */; };
+		CCB3B1DC1FF38E9C00E2631B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F401FF2471600E5D96D /* libz.tbd */; };
+		CCB3B1DD1FF38EFF00E2631B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F441FF2474300E5D96D /* libiconv.tbd */; };
+		CCB3B1DF1FF38F1200E2631B /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB3B1DE1FF38F1200E2631B /* libbz2.1.0.tbd */; };
+		CCB3B1E11FF38F2F00E2631B /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F461FF2474D00E5D96D /* VideoToolbox.framework */; };
+		CCB3B1E41FF38F9F00E2631B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F471FF2475800E5D96D /* CoreMedia.framework */; };
+		CCB3B1E51FF39B8700E2631B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB3B1E31FF38F6200E2631B /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +163,10 @@
 		CCAA2F441FF2474300E5D96D /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		CCAA2F461FF2474D00E5D96D /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		CCAA2F471FF2475800E5D96D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CCB3B1DE1FF38F1200E2631B /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		CCB3B1E01FF38F2400E2631B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CCB3B1E21FF38F3D00E2631B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCB3B1E31FF38F6200E2631B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,15 +174,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCAA2F491FF2477500E5D96D /* VideoToolbox.framework in Frameworks */,
-				CCAA2F481FF2476A00E5D96D /* CoreMedia.framework in Frameworks */,
-				CCAA2F431FF2473700E5D96D /* libbz2.tbd in Frameworks */,
-				CCAA2F411FF2472400E5D96D /* libz.tbd in Frameworks */,
+				CCB3B1E51FF39B8700E2631B /* AudioToolbox.framework in Frameworks */,
+				CCB3B1E41FF38F9F00E2631B /* CoreMedia.framework in Frameworks */,
+				CCB3B1E11FF38F2F00E2631B /* VideoToolbox.framework in Frameworks */,
+				CCB3B1DD1FF38EFF00E2631B /* libiconv.tbd in Frameworks */,
+				CCB3B1DC1FF38E9C00E2631B /* libz.tbd in Frameworks */,
 				CCAA2F3C1FF2431500E5D96D /* libavutil.a in Frameworks */,
 				CCAA2F3E1FF2431500E5D96D /* libswscale.a in Frameworks */,
-				CCAA2F451FF2474300E5D96D /* libiconv.tbd in Frameworks */,
 				CCAA2F3A1FF2431500E5D96D /* libavfilter.a in Frameworks */,
 				CCAA2F391FF2431500E5D96D /* libavdevice.a in Frameworks */,
+				CCB3B1DF1FF38F1200E2631B /* libbz2.1.0.tbd in Frameworks */,
 				CCAA2F381FF2431500E5D96D /* libavcodec.a in Frameworks */,
 				CCAA2F3D1FF2431500E5D96D /* libswresample.a in Frameworks */,
 				CCAA2F3B1FF2431500E5D96D /* libavformat.a in Frameworks */,
@@ -437,6 +443,10 @@
 		CCAA2F3F1FF2471600E5D96D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CCB3B1E31FF38F6200E2631B /* AudioToolbox.framework */,
+				CCB3B1E21FF38F3D00E2631B /* CoreGraphics.framework */,
+				CCB3B1E01FF38F2400E2631B /* AVFoundation.framework */,
+				CCB3B1DE1FF38F1200E2631B /* libbz2.1.0.tbd */,
 				CCAA2F471FF2475800E5D96D /* CoreMedia.framework */,
 				CCAA2F461FF2474D00E5D96D /* VideoToolbox.framework */,
 				CCAA2F441FF2474300E5D96D /* libiconv.tbd */,

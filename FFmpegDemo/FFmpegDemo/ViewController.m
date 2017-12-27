@@ -7,9 +7,6 @@
 //
 
 #import "ViewController.h"
-#include <libavcodec/avcodec.h>
-#include <libavformat/avformat.h>
-#include <libavfilter/avfilter.h>
 
 #include "BascInfoVC.h"
 
@@ -29,7 +26,6 @@ static NSString *indetifier = @"MyFFmpegDemoCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"avcodec的配置: %s",avcodec_configuration());
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
