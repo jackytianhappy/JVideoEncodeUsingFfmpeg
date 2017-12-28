@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 
-#include "BascInfoVC.h"
+#import "BascInfoVC.h"
+#import "RTMPPushVC.h"
 
 
 static NSString *indetifier = @"MyFFmpegDemoCell";
@@ -27,6 +28,8 @@ static NSString *indetifier = @"MyFFmpegDemoCell";
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.title = @"Demo List";
+    
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
@@ -36,7 +39,8 @@ static NSString *indetifier = @"MyFFmpegDemoCell";
 - (void)initData{
     
     dataArray = @[
-                  NSStringFromClass([BascInfoVC class])
+                  NSStringFromClass([BascInfoVC class]),
+                  NSStringFromClass([RTMPPushVC class]),
                   ];
 }
 

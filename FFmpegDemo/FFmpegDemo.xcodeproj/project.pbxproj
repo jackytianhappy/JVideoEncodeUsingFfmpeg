@@ -27,6 +27,7 @@
 		CCB3B1E11FF38F2F00E2631B /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F461FF2474D00E5D96D /* VideoToolbox.framework */; };
 		CCB3B1E41FF38F9F00E2631B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA2F471FF2475800E5D96D /* CoreMedia.framework */; };
 		CCB3B1E51FF39B8700E2631B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB3B1E31FF38F6200E2631B /* AudioToolbox.framework */; };
+		CCB3B1EC1FF49B7900E2631B /* RTMPPushVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB3B1EB1FF49B7900E2631B /* RTMPPushVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -167,6 +168,8 @@
 		CCB3B1E01FF38F2400E2631B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CCB3B1E21FF38F3D00E2631B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CCB3B1E31FF38F6200E2631B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CCB3B1EA1FF49B7900E2631B /* RTMPPushVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMPPushVC.h; sourceTree = "<group>"; };
+		CCB3B1EB1FF49B7900E2631B /* RTMPPushVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMPPushVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -394,6 +397,7 @@
 		CCAA2EA21FF241B200E5D96D /* FFmpegDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CCB3B1E91FF49B3400E2631B /* RTMP_PUSH */,
 				CCA7E55A1FF24DAB0059CEF9 /* ListVCs */,
 				CCAA2EB91FF2423F00E5D96D /* FFMPEG */,
 				CCAA2EA31FF241B200E5D96D /* AppDelegate.h */,
@@ -454,6 +458,15 @@
 				CCAA2F401FF2471600E5D96D /* libz.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCB3B1E91FF49B3400E2631B /* RTMP_PUSH */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3B1EA1FF49B7900E2631B /* RTMPPushVC.h */,
+				CCB3B1EB1FF49B7900E2631B /* RTMPPushVC.m */,
+			);
+			path = RTMP_PUSH;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -528,6 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCAA2EA81FF241B200E5D96D /* ViewController.m in Sources */,
+				CCB3B1EC1FF49B7900E2631B /* RTMPPushVC.m in Sources */,
 				CCA7E55D1FF24E120059CEF9 /* BascInfoVC.m in Sources */,
 				CCAA2EB31FF241B200E5D96D /* main.m in Sources */,
 				CCAA2EA51FF241B200E5D96D /* AppDelegate.m in Sources */,
